@@ -59,7 +59,7 @@ const Footer = () => {
         <div className="copyright">
             <p>@ 2022, All The Right of Ecommerce Store are
                 Has Taken. </p>
-            <Link to="/admin/raj">rajSharma</Link>
+            <Link to="/admin/home">rajSharma</Link>
         </div>
     </footer>
     );
