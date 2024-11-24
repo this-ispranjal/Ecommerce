@@ -2,6 +2,8 @@ import logoImage from '../../img/logo.png';
 import appLogo from '../../img/pay/app.jpg';
 import pay from '../../img/pay/pay.png';
 import play from '../../img/pay/play.jpg';
+import { Link} from "react-router-dom";
+
 // import "../../App.css"
 
 
@@ -57,6 +59,7 @@ const Footer = () => {
         <div className="copyright">
             <p>@ 2022, All The Right of Ecommerce Store are
                 Has Taken. </p>
+            <Link to="/admin/raj">rajSharma</Link>
         </div>
     </footer>
     );
